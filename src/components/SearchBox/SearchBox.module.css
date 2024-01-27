@@ -1,0 +1,10 @@
+.searchBox {
+   display: flex;
+   flex-direction: column;
+   max-width: 300px;
+   gap: 5px;
+}
+
+.searchBox:not(:last-child) {
+   margin-bottom: 20px;
+}
